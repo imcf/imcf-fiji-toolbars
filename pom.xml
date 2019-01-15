@@ -47,6 +47,7 @@
 				<filtering>false</filtering>
 				<excludes>
 					<exclude>**/*.ijm</exclude>
+					<exclude>**/*.xcf</exclude>
 				</excludes>
 			</resource>
 		</resources>
