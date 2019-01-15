@@ -1,1 +1,1 @@
-:snake: :microscope: :symbols: Fiji Action Bars provided by the IMCF.
+:coffee: :microscope: :symbols: Fiji Action Bars provided by the IMCF.
