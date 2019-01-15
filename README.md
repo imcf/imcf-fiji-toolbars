@@ -1,4 +1,4 @@
-# Fiji Action Bars provided by the IMCF :snake::microscope:
+# Fiji Action Bars provided by the IMCF :snake::microscope::symbols:
 
 This repository contains various [Action Bars][1] for [Fiji][2], most notably:
 
