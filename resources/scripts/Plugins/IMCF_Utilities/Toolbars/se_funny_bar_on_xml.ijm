@@ -1,1 +1,0 @@
-run("Action Bar", "jar:file:../jars/fiji-imcf-toolbars-0.0.1-SNAPSHOT.jar!/bars/se_funny_bar.xml");

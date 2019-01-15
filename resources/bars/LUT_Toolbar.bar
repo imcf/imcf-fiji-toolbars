@@ -1,6 +1,6 @@
 // This Action Bar description file is meant for being included in a .jar file
-// and thus has no ImageJ macro language section, instead this part is in the
-// "plugins.config" file included in the .jar.
+// and thus has no ImageJ macro language section, instead the call to launch it
+// is in the corresponding macro file included in the .jar.
 
 <line>
 <button>
