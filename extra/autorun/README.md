@@ -1,9 +1,9 @@
-## Fiji Auto-Run Setup
+# Fiji Auto-Run Setup
 
 To enable the *auto-run* feature, the scripts below this directory need to be
 placed at the corresponding location in your Fiji installation.
 
-```
+```text
 macros/
 └── AutoRun
     └── AutoRun_Scripts.ijm

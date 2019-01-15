@@ -5,18 +5,26 @@ importClass(Packages.ij.IJ);
 importClass(Packages.ij.Prefs);
 
 
+debug = Prefs.get("imcf.debugging", false);
+
+function log_debug(msg) {
+    if (debug)
+        print(msg);
+}
+
+
 if (Prefs.get("imcf.show_toolbar", true)) {
-    // print("IMCF Toolbar is enabled in preferences.");
+    log_debug("IMCF Toolbar is enabled in preferences.");
 
     // make sure we only launch the bar if the ActionBar plugin is installed:
     try {
+        log_debug("Trying to launch the IMCF toolbar...")
         importClass(Packages.Action_Bar);
-        IJ.run("IMCF Default Toolbar", "");
-        // print('success');
+        IJ.run("IMCF Toolbar", "");
     }
     catch(e) {
-        // print('fail');
+        log_debug("Toolbar failed, is the 'ActionBar' plugin installed?");
     }
 } else {
-    // print("IMCF Toolbar is DISABLED in preferences!");
+    log_debug("IMCF Toolbar is DISABLED in preferences.");
 }
