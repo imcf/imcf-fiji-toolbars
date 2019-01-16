@@ -50,7 +50,7 @@ run("Channels Tool...");
 label=Auto
 //icon=icons/bandpass.png
 arg=<macro>
-run("Auto-Range Contrast + LUT's");
+run("Auto-Range Contrast+LUT");
 </macro>
 
 <button> 7 line 1
