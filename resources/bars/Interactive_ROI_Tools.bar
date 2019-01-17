@@ -2,6 +2,17 @@
 // and thus has no ImageJ macro language section, instead the call to launch it
 // is in the corresponding macro file included in the .jar.
 
+
+////////////////////////////////////////////////////////////////////////////////
+// This bar provides a few buttons to create simple relations betwen ROIs in  //
+// ImageJ. To use it, first create all your ROIs, then initialize  the        //
+// "Interactive ROI Manager". This will convert the results table into an     //
+// advanced version with fixed IDs and additional columns to indicate the     //
+// relations between individial ROIs. Then use the "Primary" and "Secondary"  //
+// buttons to annotate the ROIs accordingly.
+////////////////////////////////////////////////////////////////////////////////
+
+
 <line>
 <button>
 label=Initialize
