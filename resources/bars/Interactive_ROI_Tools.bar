@@ -6,7 +6,7 @@
 <button>
 label=Initialize
 arg=<macro>
-runMacro("InteractiveROIManager", "init");
+run("Interactive ROI Manager", "cmd=init");
 </macro>
 </line>
 
@@ -14,7 +14,7 @@ runMacro("InteractiveROIManager", "init");
 <button>
 label=Show selected Result
 arg=<macro>
-runMacro("InteractiveROIManager", "update_selection");
+run("Interactive ROI Manager", "cmd=update_selection");
 </macro>
 </line>
 
@@ -22,12 +22,12 @@ runMacro("InteractiveROIManager", "update_selection");
 <button>
 label=Primary
 arg=<macro>
-runMacro("InteractiveROIManager", "mark_primary");
+run("Interactive ROI Manager", "cmd=mark_primary");
 </macro>
 <button>
 label=Secondary
 arg=<macro>
-runMacro("InteractiveROIManager", "mark_secondary");
+run("Interactive ROI Manager", "cmd=mark_secondary");
 </macro>
 </line>
 
