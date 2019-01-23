@@ -1,4 +1,4 @@
-# Fiji Action Bars provided by the IMCF :coffee::microscope::symbols:
+# Fiji Action Bars provided by the IMCF :coffee: :microscope: :symbols:
 
 This repository contains various [Action Bars][1] for [Fiji][2], most notably:
 
