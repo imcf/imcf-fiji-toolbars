@@ -88,8 +88,8 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:git://github.com/imcf/jython-scijava-logging</connection>
-		<developerConnection>scm:git:git@github.com:imcf/jython-scijava-logging</developerConnection>
+		<connection>scm:git:git://github.com/imcf/imcf-fiji-toolbars</connection>
+		<developerConnection>scm:git:git@github.com:imcf/imcf-fiji-toolbars</developerConnection>
 		<tag>HEAD</tag>
 		<url>https://github.com/imcf/imcf-fiji-toolbars</url>
 	</scm>
