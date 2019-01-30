@@ -1,5 +1,7 @@
 # Fiji Action Bars provided by the IMCF :coffee: :microscope: :symbols:
 
+[![Build Status](https://travis-ci.com/imcf/imcf-fiji-toolbars.svg?branch=master)](https://travis-ci.com/imcf/imcf-fiji-toolbars)
+
 This repository contains various [Action Bars][1] for [Fiji][2], most notably:
 
 - The ***IMCF Toolbar*** with shortcuts to
