@@ -124,5 +124,10 @@
 			<artifactId>ij</artifactId>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>ch.unibas.biozentrum.imcf</groupId>
+			<artifactId>imcf-fiji-scripts</artifactId>
+			<version>5.0.1</version>
+		</dependency>
 	</dependencies>
 </project>
