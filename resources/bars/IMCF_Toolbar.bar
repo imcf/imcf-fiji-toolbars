@@ -122,11 +122,10 @@ run("Segmentation Toolbar");
 </macro>
 
 <button> 8 line 2
-label=Run Fiji Updater
-icon=icons/run_updater.png
+label=Script Interpreter
+icon=icons/script.png
 arg=<macro>
-run("Update...", "statusservice=[org.scijava.app.DefaultStatusService [priority = 0.0]] log=[org.scijava.log.StderrLogService [priority = -100.0]] uploaderservice=[net.imagej.updater.DefaultUploaderService [priority = 0.0]] commandservice=[org.scijava.command.DefaultCommandService [priority = 0.0]]");
-
+run("Script Interpreter");
 </macro>
 </line>
 
