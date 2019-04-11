@@ -1,6 +1,10 @@
-# VS Code stuff
+# VS Code / Eclipse stuff
 *.code-workspace
 .vscode/
+.classpath
+.project
+.settings/
+
 
 # maven / release generated files
 target/
