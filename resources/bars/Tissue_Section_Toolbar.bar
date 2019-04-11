@@ -1,0 +1,66 @@
+// This Action Bar description file is meant for being included in a .jar file
+// and thus has no ImageJ macro language section, instead the call to launch it
+// is in the corresponding macro file included in the .jar.
+
+
+<beanshell>
+
+<text><html><center><br>3D Reconstruction of<br>serial tissue sections<br><br>
+
+<line>
+<button>
+label=Combine Slides (Optional)
+arg=<bsh>
+IJ.run("Combine Adjacent Slides");
+</bsh>
+</line>
+
+<line>
+<button>
+label=Create Tissue Masks
+arg=<bsh>
+tst_slide = WindowManager.getCurrentImage().getID();
+tst_slide_nc = WindowManager.getCurrentImage().nChannels;
+print("Slide image: ID=" + tst_slide + " channels=" + tst_slide_nc);
+IJ.run("Create Tissue Masks");
+tst_mask = WindowManager.getCurrentImage().getID();
+print("Mask image: ID=" + tst_mask);
+</bsh>
+</line>
+
+<line>
+<button>
+label=Masks To Segmentation
+arg=<bsh>
+IJ.run("Masks To Segmentation", "msg=no padding=10 tst_slide=" + tst_slide + " tst_mask=" + tst_mask);
+tst_labels = WindowManager.getCurrentImage().getID();
+print("Labels image: ID=" + tst_labels);
+</bsh>
+</line>
+
+<line>
+<button>
+label=Sort ROIs in Columns
+arg=<bsh>
+IJ.run("Sort ROIs in Columns", "msg=no tst_slide=" + tst_slide + " tst_labels=" + tst_labels);
+</bsh>
+</line>
+
+<line>
+<button>
+label=Crop & Pad
+arg=<bsh>
+IJ.run("Crop and Pad ROIs", "msg=no tst_slide=" + tst_slide + " pad_crops=true");
+</bsh>
+</line>
+
+<line>
+<button>
+label=Sections to Hyperstack
+arg=<bsh>
+tst_slide_nc = 4;
+IJ.run("Sections to Hyperstack", "imgf=[[tst-from-log]] nchannels=" + tst_slide_nc);
+tst_stack = WindowManager.getCurrentImage().getID();
+print("Hyperstack image: ID=" + tst_stack);
+</bsh>
+</line>
