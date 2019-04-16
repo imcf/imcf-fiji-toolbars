@@ -74,3 +74,13 @@ tst_stack_registered = WindowManager.getCurrentImage().getID();
 print("Registered stack: ID=" + tst_stack_registered);
 </bsh>
 </line>
+
+<line>
+<button>
+label=<html><center>Shift Substack<br>[optional]
+arg=<bsh>
+IJ.run("Shift Substack", "msg=no");
+tst_stack = WindowManager.getCurrentImage().getID();
+print("Shifted stack: ID=" + tst_stack);
+</bsh>
+</line>
