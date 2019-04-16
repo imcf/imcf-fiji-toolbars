@@ -10,6 +10,7 @@
 <line>
 <button>
 label=<html><center>Combine Slides<br>[optional]
+bgcolor=#cbdfff
 arg=<bsh>
 IJ.run("Combine Adjacent Slides");
 </bsh>
@@ -18,6 +19,7 @@ IJ.run("Combine Adjacent Slides");
 <line>
 <button>
 label=Create Tissue Masks
+bgcolor=#cbdfff
 arg=<bsh>
 tst_slide = WindowManager.getCurrentImage().getID();
 tst_slide_nc = WindowManager.getCurrentImage().nChannels;
@@ -31,6 +33,7 @@ print("Mask image: ID=" + tst_mask);
 <line>
 <button>
 label=Masks To Segmentation
+bgcolor=#cbdfff
 arg=<bsh>
 IJ.run("Masks To Segmentation", "msg=no padding=10 tst_slide=" + tst_slide + " tst_mask=" + tst_mask);
 tst_labels = WindowManager.getCurrentImage().getID();
@@ -41,6 +44,7 @@ print("Labels image: ID=" + tst_labels);
 <line>
 <button>
 label=Sort ROIs in Columns
+bgcolor=#cbdfff
 arg=<bsh>
 IJ.run("Sort ROIs in Columns", "msg=no tst_slide=" + tst_slide + " tst_labels=" + tst_labels);
 </bsh>
@@ -49,6 +53,7 @@ IJ.run("Sort ROIs in Columns", "msg=no tst_slide=" + tst_slide + " tst_labels=" 
 <line>
 <button>
 label=Crop & Pad
+bgcolor=#cbdfff
 arg=<bsh>
 IJ.run("Crop and Pad ROIs", "msg=no tst_slide=" + tst_slide + " pad_crops=true");
 </bsh>
@@ -57,6 +62,7 @@ IJ.run("Crop and Pad ROIs", "msg=no tst_slide=" + tst_slide + " pad_crops=true")
 <line>
 <button>
 label=Sections to Hyperstack
+bgcolor=#cbdfff
 arg=<bsh>
 tst_slide_nc = 4;
 IJ.run("Sections to Hyperstack", "imgf=[[tst-from-log]] nchannels=" + tst_slide_nc);
@@ -68,6 +74,7 @@ print("Hyperstack image: ID=" + tst_stack);
 <line>
 <button>
 label=Register Sections
+bgcolor=#cbdfff
 arg=<bsh>
 IJ.run("Register Sections", "tst_stack=" + tst_stack + " msg=no");
 tst_stack_registered = WindowManager.getCurrentImage().getID();
@@ -78,6 +85,7 @@ print("Registered stack: ID=" + tst_stack_registered);
 <line>
 <button>
 label=<html><center>Shift Substack<br>[optional]
+bgcolor=#cbdfff
 arg=<bsh>
 IJ.run("Shift Substack", "msg=no");
 tst_stack = WindowManager.getCurrentImage().getID();
@@ -90,6 +98,7 @@ print("Shifted stack: ID=" + tst_stack);
 <line>
 <button>
 label=<html><center>Align Two Stacks<br>by Line ROI
+bgcolor=#cbdfff
 arg=<bsh>
 IJ.run("Align Two Stacks by Line ROI", "msg=no");
 </bsh>
