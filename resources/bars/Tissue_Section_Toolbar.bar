@@ -64,3 +64,13 @@ tst_stack = WindowManager.getCurrentImage().getID();
 print("Hyperstack image: ID=" + tst_stack);
 </bsh>
 </line>
+
+<line>
+<button>
+label=Register Sections
+arg=<bsh>
+IJ.run("Register Sections", "tst_stack=" + tst_stack + " msg=no");
+tst_stack_registered = WindowManager.getCurrentImage().getID();
+print("Registered stack: ID=" + tst_stack_registered);
+</bsh>
+</line>
