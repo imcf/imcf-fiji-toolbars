@@ -9,7 +9,7 @@
 
 <line>
 <button>
-label=Combine Slides (Optional)
+label=<html><center>Combine Slides<br>[optional]
 arg=<bsh>
 IJ.run("Combine Adjacent Slides");
 </bsh>
