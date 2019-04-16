@@ -84,3 +84,10 @@ tst_stack = WindowManager.getCurrentImage().getID();
 print("Shifted stack: ID=" + tst_stack);
 </bsh>
 </line>
+<line>
+<button>
+label=<html><center>Align Two Stacks<br>by Line ROI
+arg=<bsh>
+IJ.run("Align Two Stacks by Line ROI", "msg=no");
+</bsh>
+</line>
