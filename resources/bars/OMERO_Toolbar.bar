@@ -1,0 +1,39 @@
+// This Action Bar description file is meant for being included in a .jar file
+// and thus has no ImageJ macro language section, instead the call to launch it
+// is in the corresponding macro file included in the .jar.
+
+<line>
+
+<button> 1 line 1
+label=Connect to OMERO
+icon=icons/fetch_from_omero.png
+arg=<macro>
+run("Connect to OMERO");
+</macro>
+
+<button> 2 line 1
+label=Save image to OMERO
+icon=icons/upload_to_omero.png
+arg=<macro>
+run("Save Image(s) to OMERO");
+</macro>
+
+<button> 3 line 1
+label=Save ROIs to OMERO
+icon=icons/upload_roi_to_omero.png
+arg=<macro>
+run("Save ROIs to OMERO");
+</macro>
+
+<button> 4 line 1
+label=Save Results to OMERO
+icon=icons/upload_results_to_omero.png
+arg=<macro>
+run("Save Results to OMERO");
+</macro>
+
+</line>
+
+// end of file
+
+

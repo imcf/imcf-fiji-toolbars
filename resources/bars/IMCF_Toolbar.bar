@@ -6,8 +6,6 @@
 file=getArgument();
 param = "open=[" + file + "]";
 run("Bio-Formats Importer", param);
-//run("Bio-Formats Macro Extensions");
-//Ext.openImagePlus(file)
 </DnDAction>
 
 <line>
@@ -26,78 +24,59 @@ run("Bio-Formats Exporter");
 </macro>
 
 <button> 3 line 1
-label=Histogram
-icon=icons/histogram.png
+label=OMERO Toolbar
+icon=icons/omero_toolbar_icon.png
 arg=<macro>
-run("Histogram");
+run("OMERO Toolbar");
 </macro>
 
 <button> 4 line 1
-label=Brightness & Contrast
-icon=icons/bright_contrast.png
+label=Segmentation Toolbar
+icon=icons/segmentation.png
 arg=<macro>
-run("Brightness/Contrast...");
+run("Segmentation Toolbar");
 </macro>
 
 <button> 5 line 1
-label=Channels Tool
-icon=icons/maxim2_tango_rgb.png
+label=Orthogonal Views
+icon=icons/orthogonal_views.png
 arg=<macro>
-run("Channels Tool...");
+run("Orthogonal Views");
 </macro>
 
-<button> 6 line 1
-label=Auto
-//icon=icons/bandpass.png
-arg=<macro>
-run("Auto-Range Contrast+LUT");
-</macro>
-
-<button> 7 line 1
-label=Median Filter
-icon=icons/median.png
-arg=<macro>
-run("Median...");
-</macro>
-
-<button> 8 line 1
-label=Gaussian Blur
-icon=icons/gauss_filter.png
-arg=<macro>
-run("Gaussian Blur...");
-</macro>
 
 </line>
 
 // LINE 2:
 
 <line>
+
 <button> 1 line 2
-label=Image Calculator
-icon=icons/calculator.png
+label=Histogram
+icon=icons/histogram.png
 arg=<macro>
-run("Image Calculator...");
+run("Histogram");
 </macro>
 
 <button> 2 line 2
-label=Subtract Background
-icon=icons/subtract_background.png
+label=Brightness & Contrast
+icon=icons/bright_contrast.png
 arg=<macro>
-run("Subtract Background...");
+run("Brightness/Contrast...");
 </macro>
 
 <button> 3 line 2
-label=stitchPairs
-icon=icons/stitchpairs.png
+label=Channels Tool
+icon=icons/maxim2_tango_rgb.png
 arg=<macro>
-run("Pairwise stitching");
+run("Channels Tool...");
 </macro>
 
 <button> 4 line 2
-label=stitchGrid
-icon=icons/stitchgrid.png
+label=Auto
+//icon=icons/bandpass.png
 arg=<macro>
-run("Grid/Collection stitching");
+run("Auto-Range Contrast+LUT");
 </macro>
 
 <button> 5 line 2
@@ -107,26 +86,49 @@ arg=<macro>
 run("LUT Toolbar");
 </macro>
 
-<button> 6 line 2
-label=Stack Registration
-icon=icons/stack_reg.png
+</line>
+
+// LINE 3:
+
+<line>
+
+<button> 1 line 3
+label=Image Calculator
+icon=icons/calculator.png
 arg=<macro>
-run("StackReg");
+run("Image Calculator...");
 </macro>
 
-<button> 7 line 2
-label=Segmentation Toolbar
-icon=icons/segmentation.png
+<button> 2 line 3
+label=Close All
+// icon=icons/subtract_background.png
 arg=<macro>
-run("Segmentation Toolbar");
+run("Close All");
 </macro>
 
-<button> 8 line 2
-label=Script Interpreter
-icon=icons/script.png
+<button> 3 line 3
+label=Median Filter
+icon=icons/median.png
 arg=<macro>
-run("Script Interpreter");
+run("Median...");
 </macro>
+
+<button> 4 line 3
+label=Gaussian Blur
+icon=icons/gauss_filter.png
+arg=<macro>
+run("Gaussian Blur...");
+</macro>
+
+<button> 5 line 3
+label=Batch convert X to Y
+icon=icons/batch_convert_X_to_Y.png
+arg=<macro>
+run("batch convert X to Y");
+</macro>
+
 </line>
 
 // end of file
+
+

@@ -49,15 +49,6 @@ run("Spectrum")
 
 <line>
 <button>
-label=Lifetime
-icon=icons/lut/lifetime.png
-arg=<macro>
-run("lifetime")
-</macro>
-</line>
-
-<line>
-<button>
 label=MPL Plasma
 icon=icons/lut/mpl-plasma.png
 arg=<macro>
