@@ -1,6 +1,7 @@
 # Fiji Action Bars provided by the IMCF :coffee: :microscope: :symbols:
 
 [![Build Status](https://travis-ci.com/imcf/imcf-fiji-toolbars.svg?branch=master)](https://travis-ci.com/imcf/imcf-fiji-toolbars)
+[![DOI](https://zenodo.org/badge/165838781.svg)](https://zenodo.org/badge/latestdoi/165838781)
 
 This repository contains various [Action Bars][1] for [Fiji][2], most notably:
 
