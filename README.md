@@ -7,6 +7,8 @@ This repository contains various [Action Bars][1] for [Fiji][2], most notably:
 
 ## The **IMCF Toolbar**
 
+![IMCF Toolbar](screenshots/imcf-toolbar.png)
+
 providing shortcuts to
 
 - [Bio-Formats][3] Importer and Exporter
