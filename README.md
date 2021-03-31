@@ -22,7 +22,7 @@ providing shortcuts to
 - Image Calculator
 - Median and Gaussian Filters
 - ***Segmentation Toolbar***
-- Script Editor
+- Script Interpreter
 - Close All Image Windows
 
 ## The **LUT Toolbar**
