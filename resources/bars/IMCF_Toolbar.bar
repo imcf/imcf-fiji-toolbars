@@ -47,8 +47,8 @@ run("Channels Tool...");
 </macro>
 
 <button> 6 line 1
-label=Auto
-//icon=icons/bandpass.png
+label=Auto-Range Contrast+LUT
+icon=icons/iconmonstr-brightness-7-magic-1-32.png
 arg=<macro>
 run("Auto-Range Contrast+LUT");
 </macro>
