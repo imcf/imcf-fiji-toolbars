@@ -17,7 +17,7 @@ This repository contains various [Action Bars][1] for [Fiji][2], most notably:
   - StackReg
 
 - The ***LUT Toolbar*** providing quick access to a number of useful LUTs
-  - False-Color: *Fire*, *Ice*, *Cool*, *Physics*, *Spectrum*, *Lifetime*
+  - False-Color: *Fire*, *Ice*, *Cool*, *Physics*, *Spectrum*
   - Intensity-Preserving: *MPL Plasma* and *Viridis*
   - Monochromatic: *Greys*, *Red*, *Green*, *Blue*
   - Saturation / Offset highlighting: *Glow*, *HiLo*
