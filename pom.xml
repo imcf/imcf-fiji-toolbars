@@ -127,7 +127,7 @@
 		<dependency>
 			<groupId>ch.unibas.biozentrum.imcf</groupId>
 			<artifactId>imcf-fiji-scripts</artifactId>
-			<version>5.2.1</version>
+			<version>5.2.2</version>
 		</dependency>
 	</dependencies>
 </project>
