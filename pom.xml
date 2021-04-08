@@ -11,7 +11,7 @@
 
 	<groupId>ch.unibas.biozentrum.imcf</groupId>
 	<artifactId>imcf-fiji-toolbars</artifactId>
-	<version>4.0.1-SNAPSHOT</version>
+	<version>4.0.1</version>
 
 	<name>IMCF Toolbars for Fiji</name>
 	<description>
@@ -90,7 +90,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/imcf/imcf-fiji-toolbars</connection>
 		<developerConnection>scm:git:git@github.com:imcf/imcf-fiji-toolbars</developerConnection>
-		<tag>HEAD</tag>
+		<tag>imcf-fiji-toolbars-4.0.1</tag>
 		<url>https://github.com/imcf/imcf-fiji-toolbars</url>
 	</scm>
 	<issueManagement>
