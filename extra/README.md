@@ -6,13 +6,10 @@ copied over to a specific location inside a Fiji installation.
 
 ## Auto-Run Setup
 
-To enable the *auto-run* feature, the scripts below the `Fiji.app` directory
-need to be placed at the corresponding location in your Fiji installation.
+To enable the *auto-run* feature of the IMCF Toolbar, the `Show_IMCF_Toolbar.js`
+script needs to be put at the corresponding location in your Fiji installation.
 
 ```text
-macros/
-└── AutoRun
-    └── AutoRun_Scripts.ijm
 plugins/
 └── Scripts
     └── Plugins
